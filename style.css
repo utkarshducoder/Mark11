@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+:root{
+  --primary-dark: #FEE2E2;
+  --primary-green: rgb(179, 51, 62);
+  --secondary-green: #ECFDF5;
+}
+body{
+  background-color: var(--primary-dark);
+  color: var(--primary-green);
+  font-family: 'Pacifico', cursive;
+}
+h1{
+  text-align: center;
+  margin: 2rem;
+}
+.container{
+  width: 50%;
+  margin: auto;
+  
+}
+input,label{
+  display: block;
+  text-align: center;
+}
+input{
+  margin-bottom: 0.5rem;
+  width: 100%;
+}
+#check-number{
+  display: block;
+  margin-top: 1rem;
+  margin: auto;
+  background: transparent;
+  color: var(--primary-green);
+  border-color: var(---primary-green);
+  border-width: medium;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  text-align: center;
+}
+#output-box{
+  text-align: center;
+}
+
+
+
